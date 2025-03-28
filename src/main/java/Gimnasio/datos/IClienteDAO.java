@@ -1,7 +1,7 @@
-    package Gimnasio.datos;
+package Gimnasio.datos;
 
-        import Gimnasio.dominio.Cliente;
-        import java.util.List;
+    import Gimnasio.dominio.Cliente;
+    import java.util.List;
 
     public interface IClienteDAO {
         List<Cliente> listarClientes();
